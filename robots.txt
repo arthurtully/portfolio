@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /assets/
+
+sitemap:http://arthurtully.com/sitemap.xml
+
+crawl-delay: 10
