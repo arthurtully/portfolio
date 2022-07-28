@@ -1,5 +1,8 @@
 User-agent: *
-Disallow: /assets/
+Disallow: /css/
+Disallow: /images/
+Disallow: /js/
+Disallow: /webfonts/
 
 sitemap:http://arthurtully.com/sitemap.xml
 
