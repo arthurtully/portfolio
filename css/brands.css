@@ -1,0 +1,127 @@
+.button,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover,
+.button:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+.button.button-primary {
+  color: #fff;
+  filter: brightness(90%);
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+.icon {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.button.button-default {
+  color: #ffffff;
+  background-color: #0085ff;
+}
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%);
+}
+
+.button.button-behance {
+  color: #ffffff;
+  background-color: #195aff;
+}
+.button.button-amazon:hover,
+.button.button-amazon:focus {
+  filter: brightness(90%);
+}
+
+/* Discord */
+.button.button-discord {
+  color: #ffffff;
+  background-color: #5865f2;
+}
+.button.button-discord:hover,
+.button.button-discord:focus {
+  filter: brightness(90%);
+}
+
+.button.button-paypal {
+  color: #ffffff;
+  background-color: #003087;
+}
+.button.button-paypal:hover,
+.button.button-paypal:focus {
+  filter: brightness(90%);
+}
+
+.button.button-tiktok {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-tiktok:hover,
+.button.button-tiktok:focus {
+  filter: brightness(90%);
+}
+
+.button.button-twitch {
+  color: #ffffff;
+  background-color: #9146ff;
+}
+.button.button-twitch:hover,
+.button.button-twitch:focus {
+  filter: brightness(90%);
+}
+
+.button.button-twit {
+  color: #ffffff;
+  background-color: #1da1f2;
+}
+.button.button-twit:hover,
+.button.button-twit:focus {
+  filter: brightness(90%);
+}
+
+.button.button-web {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-web:hover,
+.button.button-web:focus {
+  filter: brightness(90%);
+}
+.button.button-yt {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-yt:hover,
+.button.button-yt:focus {
+  filter: brightness(90%);
+}
+.button.button-instagram {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+.button.button-instagram:hover,
+.button.button-instagram:focus {
+  filter: brightness(90%);
+}
