@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/brands.css">
   <link rel="icon" type="image/png" href="images/avatar.png">
+  <script src="js/clipboard.min.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6WMGRLLCZ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -38,7 +39,7 @@
             <img class="icon" src="images/icons/email.svg" alt="Email Icon">&#104;&#101;&#108;&#108;&#111;&#64;&#97;&#114;&#116;&#104;&#117;&#114;&#116;&#117;&#108;&#108;&#121;&#46;&#99;&#111;&#109;</a>
         <br>
 
-        <a class="button button-discord" target="_blank" rel="noopener">
+        <a class="button button-discord" id="btn" data-clipboard-text="arthur tully#0001"  title="Click to copy!">
             <img class="icon" src="images/icons/discord.svg" alt="Discord Logo">arthur tully#0001</a>
         <br>
 
@@ -64,5 +65,21 @@
       </div>
     </div>
   </div>
+  <script>
+      var btn = document.getElementById('btn');
+      var clipboard = new ClipboardJS(btn);
+
+      clipboard.on('success', function (e) {
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+      });
+
+      clipboard.on('error', function (e) {
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+      });
+  </script>
 </body>
 </html>
