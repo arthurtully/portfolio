@@ -72,8 +72,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-
-/* Discord */
 .button.button-discord {
   color: #ffffff;
   background-color: #5865f2;
@@ -87,11 +85,6 @@ button:hover,
   color: #ffffff;
   background-color: #003087;
 }
-.button.button-paypal:hover,
-.button.button-paypal:focus {
-  filter: brightness(90%);
-}
-
 .button.button-tiktok {
   color: #ffffff;
   background-color: #000000;
